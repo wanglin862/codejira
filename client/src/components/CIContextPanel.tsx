@@ -155,7 +155,7 @@ export default function CIContextPanel({
                 <div className="text-sm">
                   <span className="text-muted-foreground">Additional Info:</span>
                   <div className="mt-1 p-2 bg-muted rounded text-xs font-mono">
-                    {JSON.stringify(ci.metadata, null, 2)}
+                    {JSON.stringify(ci.metadata, null, 2) as string}
                   </div>
                 </div>
               )}
