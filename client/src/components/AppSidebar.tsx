@@ -19,7 +19,10 @@ import {
   AlertTriangle,
   Calendar,
   Users,
-  BarChart3
+  BarChart3,
+  Zap,
+  Activity as MonitoringIcon,
+  ExternalLink
 } from "lucide-react";
 import { useLocation } from "wouter";
 
@@ -66,6 +69,24 @@ const itilItems = [
     title: "Changes",
     url: "/changes", 
     icon: Calendar,
+  },
+];
+
+const automationItems = [
+  {
+    title: "ITIL Automation",
+    url: "/automation",
+    icon: Zap,
+  },
+  {
+    title: "Monitoring Integration", 
+    url: "/monitoring",
+    icon: MonitoringIcon,
+  },
+  {
+    title: "JIRA Integration",
+    url: "/jira",
+    icon: ExternalLink,
   },
 ];
 
@@ -117,6 +138,29 @@ export function AppSidebar() {
           <SidebarGroupContent>
             <SidebarMenu>
               {itilItems.map((item) => (
+                <SidebarMenuItem key={item.title}>
+                  <SidebarMenuButton 
+                    asChild
+                    data-active={location === item.url}
+                    data-testid={`sidebar-${item.title.toLowerCase().replace(/\s+/g, '-')}`}
+                  >
+                    <a href={item.url}>
+                      <item.icon className="w-4 h-4" />
+                      <span>{item.title}</span>
+                    </a>
+                  </SidebarMenuButton>
+                </SidebarMenuItem>
+              ))}
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
+
+        {/* Automation Tools */}
+        <SidebarGroup>
+          <SidebarGroupLabel>Automation</SidebarGroupLabel>
+          <SidebarGroupContent>
+            <SidebarMenu>
+              {automationItems.map((item) => (
                 <SidebarMenuItem key={item.title}>
                   <SidebarMenuButton 
                     asChild

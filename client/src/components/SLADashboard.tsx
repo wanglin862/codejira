@@ -48,7 +48,7 @@ export default function SLADashboard({
   const mockSLAData: SLAStatus[] = [
     {
       id: "1",
-      ticketKey: "INC-2024-001",
+      ticketKey: "INC-2025-001",
       ticketTitle: "High CPU usage on WEB-PROD-01",
       type: "Incident",
       priority: "High",
@@ -61,7 +61,7 @@ export default function SLADashboard({
     },
     {
       id: "2",
-      ticketKey: "PRB-2024-005",
+      ticketKey: "PRB-2025-005",
       ticketTitle: "Recurring memory leaks",
       type: "Problem",
       priority: "Medium",
@@ -74,7 +74,7 @@ export default function SLADashboard({
     },
     {
       id: "3",
-      ticketKey: "INC-2024-015",
+      ticketKey: "INC-2025-015",
       ticketTitle: "Service unavailable",
       type: "Incident",
       priority: "Critical",
@@ -87,7 +87,7 @@ export default function SLADashboard({
     },
     {
       id: "4",
-      ticketKey: "CHG-2024-012",
+      ticketKey: "CHG-2025-012",
       ticketTitle: "OS patch deployment",
       type: "Change",
       priority: "Medium",

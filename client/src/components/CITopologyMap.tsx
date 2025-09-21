@@ -93,8 +93,8 @@ export default function CITopologyMap({
       owner: "DBA Team",
       operatingSystem: "CentOS 8",
       metadata: null,
-      createdAt: new Date("2024-01-15"),
-      updatedAt: new Date("2024-01-20")
+      createdAt: new Date("2025-09-15"),
+      updatedAt: new Date("2025-09-20")
     },
     {
       id: "3", 
@@ -109,8 +109,8 @@ export default function CITopologyMap({
       owner: "Network Team",
       operatingSystem: "F5 TMOS",
       metadata: null,
-      createdAt: new Date("2024-01-10"),
-      updatedAt: new Date("2024-01-18")
+      createdAt: new Date("2025-09-10"),
+      updatedAt: new Date("2025-09-18")
     },
     {
       id: "4",
@@ -125,8 +125,8 @@ export default function CITopologyMap({
       owner: "Storage Team",
       operatingSystem: "NetApp ONTAP",
       metadata: null,
-      createdAt: new Date("2024-01-05"),
-      updatedAt: new Date("2024-01-22")
+      createdAt: new Date("2025-09-05"),
+      updatedAt: new Date("2025-09-22")
     }
   ];
 

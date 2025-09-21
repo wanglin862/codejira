@@ -86,7 +86,7 @@ export default function RelatedTicketsView({
   const mockTickets: TicketType[] = tickets.length > 0 ? tickets : [
     {
       id: "1",
-      jiraKey: "INC-2024-001",
+      jiraKey: "INC-2025-001",
       type: "Incident",
       title: `High CPU usage on ${ciName}`,
       description: "CPU utilization has exceeded 90% for the past 30 minutes",
@@ -95,13 +95,13 @@ export default function RelatedTicketsView({
       assignee: "john.doe@company.com",
       reporter: "monitoring@company.com",
       ciId: ciId,
-      createdAt: new Date("2024-01-22T10:30:00Z"),
-      updatedAt: new Date("2024-01-22T11:15:00Z"),
+      createdAt: new Date("2025-09-22T10:30:00Z"),
+      updatedAt: new Date("2025-09-22T11:15:00Z"),
       resolvedAt: null
     },
     {
       id: "2",
-      jiraKey: "PRB-2024-005",
+      jiraKey: "PRB-2025-005",
       type: "Problem",
       title: `Recurring memory leaks on ${ciName}`,
       description: "Pattern of memory increases detected over past week",
@@ -110,13 +110,13 @@ export default function RelatedTicketsView({
       assignee: "jane.smith@company.com",
       reporter: "john.doe@company.com",
       ciId: ciId,
-      createdAt: new Date("2024-01-20T14:20:00Z"),
-      updatedAt: new Date("2024-01-22T09:30:00Z"),
+      createdAt: new Date("2025-09-20T14:20:00Z"),
+      updatedAt: new Date("2025-09-22T09:30:00Z"),
       resolvedAt: null
     },
     {
       id: "3",
-      jiraKey: "CHG-2024-012",
+      jiraKey: "CHG-2025-012",
       type: "Change",
       title: `OS patch deployment for ${ciName}`,
       description: "Scheduled security patch deployment",
@@ -125,13 +125,13 @@ export default function RelatedTicketsView({
       assignee: "patch.team@company.com",
       reporter: "security@company.com",
       ciId: ciId,
-      createdAt: new Date("2024-01-18T09:00:00Z"),
-      updatedAt: new Date("2024-01-19T16:45:00Z"),
-      resolvedAt: new Date("2024-01-19T16:45:00Z")
+      createdAt: new Date("2025-09-18T09:00:00Z"),
+      updatedAt: new Date("2025-09-19T16:45:00Z"),
+      resolvedAt: new Date("2025-09-19T16:45:00Z")
     },
     {
       id: "4",
-      jiraKey: "INC-2024-015",
+      jiraKey: "INC-2025-015",
       type: "Incident",
       title: `Service unavailable on ${ciName}`,
       description: "Application service is not responding",
@@ -140,9 +140,9 @@ export default function RelatedTicketsView({
       assignee: "oncall@company.com",
       reporter: "user@company.com",
       ciId: ciId,
-      createdAt: new Date("2024-01-15T16:20:00Z"),
-      updatedAt: new Date("2024-01-16T08:30:00Z"),
-      resolvedAt: new Date("2024-01-16T08:30:00Z")
+      createdAt: new Date("2025-09-15T16:20:00Z"),
+      updatedAt: new Date("2025-09-16T08:30:00Z"),
+      resolvedAt: new Date("2025-09-16T08:30:00Z")
     }
   ];
 

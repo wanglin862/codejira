@@ -87,28 +87,28 @@ export default function ITILDashboard({
     {
       id: "1",
       type: "incident",
-      message: "INC-2024-001 escalated to L2 support",
+      message: "INC-2025-001 escalated to L2 support",
       timestamp: "2 minutes ago",
       priority: "high"
     },
     {
       id: "2", 
       type: "change",
-      message: "CHG-2024-015 approved for deployment",
+      message: "CHG-2025-015 approved for deployment",
       timestamp: "15 minutes ago",
       priority: "medium"
     },
     {
       id: "3",
       type: "problem",
-      message: "PRB-2024-008 root cause identified",
+      message: "PRB-2025-008 root cause identified",
       timestamp: "32 minutes ago", 
       priority: "medium"
     },
     {
       id: "4",
       type: "incident",
-      message: "INC-2024-025 automatically resolved",
+      message: "INC-2025-025 automatically resolved",
       timestamp: "1 hour ago",
       priority: "low"
     },

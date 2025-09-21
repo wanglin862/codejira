@@ -15,8 +15,8 @@ export default function CITopologyMapExample() {
     businessService: "E-commerce Platform",
     owner: "DevOps Team",
     metadata: null,
-    createdAt: new Date("2024-01-15T10:30:00Z"),
-    updatedAt: new Date("2024-01-22T14:20:00Z")
+    createdAt: new Date("2025-09-15T10:30:00Z"),
+    updatedAt: new Date("2025-09-22T14:20:00Z")
   };
 
   return <CITopologyMap centralCI={centralCI} />
